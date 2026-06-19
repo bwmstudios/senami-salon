@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Senami Salon — Dubai's premier hair studio. Lace installs, knotless braids, silk press & colour. Book via WhatsApp +971 58 66 30 765." />
+  <meta property="og:title" content="Senami Salon — Dubai's Premier Hair Studio" />
+  <meta property="og:description" content="We don't just slay braids, we make pretty girls prettier." />
+  <meta property="og:image" content="Photos/photo_9_2026-06-19_07-30-12.jpg" />
+  <title>Senami Salon — Dubai's Premier Hair Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ═══ NAV ═══ -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <img src="Photos/photo_2026-06-19_07-49-50.jpg" alt="Senami Salon" class="nav-logo-img" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li>
+          <a href="https://wa.me/971586630765?text=Hi%20Senami%20Salon!%20I%27d%20like%20to%20book%20an%20appointment."
+             class="nav-book" target="_blank" rel="noopener">Book Now</a>
+        </li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile drawer -->
+  <div class="drawer" id="drawer">
+    <button class="drawer-close" id="drawerClose" aria-label="Close menu">✕</button>
+    <ul>
+      <li><a href="#about" class="drawer-link">About</a></li>
+      <li><a href="#services" class="drawer-link">Services</a></li>
+      <li><a href="#gallery" class="drawer-link">Gallery</a></li>
+      <li><a href="#booking" class="drawer-link">Book Now</a></li>
+    </ul>
+    <div class="drawer-social">
+      <a href="https://instagram.com/senami_salon" target="_blank" rel="noopener">@senami_salon</a>
+      <a href="https://wa.me/971586630765" target="_blank" rel="noopener">+971 58 66 30 765</a>
+    </div>
+  </div>
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+
+  <!-- ═══ HERO ═══ -->
+  <section id="home" class="hero">
+    <div class="hero-media">
+      <img src="Photos/photo_9_2026-06-19_07-30-12.jpg" alt="Glamour lace install by Senami Salon" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow fade-in">Dubai · United Arab Emirates</p>
+      <h1 class="hero-title fade-in">
+        Where Every Strand<br /><em>Tells a Story</em>
+      </h1>
+      <p class="hero-body fade-in">
+        Premium hair artistry for the woman who demands nothing less than flawless.
+      </p>
+      <div class="hero-ctas fade-in">
+        <a href="https://wa.me/971586630765?text=Hi%20Senami%20Salon!%20I%27d%20like%20to%20book%20an%20appointment."
+           class="btn btn-gold" target="_blank" rel="noopener">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Book on WhatsApp
+        </a>
+        <a href="#gallery" class="btn btn-ghost">View Our Work</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-bar"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ═══ TICKER ═══ -->
+  <div class="ticker">
+    <div class="ticker-track" aria-hidden="true">
+      <span>Lace Installs</span><span class="star">✦</span>
+      <span>Knotless Braids</span><span class="star">✦</span>
+      <span>Silk Press</span><span class="star">✦</span>
+      <span>Colour Treatments</span><span class="star">✦</span>
+      <span>Wig Customisation</span><span class="star">✦</span>
+      <span>Protective Styles</span><span class="star">✦</span>
+      <span>Body Waves</span><span class="star">✦</span>
+      <!-- duplicate -->
+      <span>Lace Installs</span><span class="star">✦</span>
+      <span>Knotless Braids</span><span class="star">✦</span>
+      <span>Silk Press</span><span class="star">✦</span>
+      <span>Colour Treatments</span><span class="star">✦</span>
+      <span>Wig Customisation</span><span class="star">✦</span>
+      <span>Protective Styles</span><span class="star">✦</span>
+      <span>Body Waves</span><span class="star">✦</span>
+    </div>
+  </div>
+
+  <!-- ═══ ABOUT ═══ -->
+  <section id="about" class="about reveal">
+    <div class="about-images">
+      <div class="about-img-main">
+        <img src="Photos/photo_4_2026-06-19_07-30-12.jpg" alt="Chocolate silk press" loading="lazy" />
+      </div>
+      <div class="about-img-float">
+        <img src="Photos/photo_8_2026-06-19_07-30-12.jpg" alt="Sleek body wave install" loading="lazy" />
+      </div>
+    </div>
+    <div class="about-text">
+      <span class="tag">Our Philosophy</span>
+      <blockquote class="motto-quote">
+        "We don't just slay braids,<br />we make pretty girls prettier."
+      </blockquote>
+      <p>At Senami Salon we believe every woman deserves to leave feeling like the finest version of herself. From precision lace installs to flawless silk presses, every service is delivered with artistry, care, and an obsessive attention to detail.</p>
+      <p>Based in Dubai, we serve women who know their worth — and demand nothing less than extraordinary.</p>
+      <div class="stats">
+        <div class="stat">
+          <span class="stat-n">500+</span>
+          <span class="stat-l">Happy Clients</span>
+        </div>
+        <div class="stat">
+          <span class="stat-n">5★</span>
+          <span class="stat-l">Rated Service</span>
+        </div>
+        <div class="stat">
+          <span class="stat-n">UAE</span>
+          <span class="stat-l">Dubai Based</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SERVICES ═══ -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="tag tag-light">What We Do</span>
+        <h2 class="sec-title">Our Services</h2>
+        <p class="sec-sub">Every service is a commitment to excellence. No shortcuts. No compromise.</p>
+      </div>
+      <div class="services-grid">
+
+        <article class="svc-card reveal">
+          <div class="svc-img">
+            <img src="Photos/photo_1_2026-06-19_07-30-12.jpg" alt="Lace Front Install" loading="lazy" />
+          </div>
+          <div class="svc-body">
+            <h3>Lace Front Install</h3>
+            <p>Seamless, undetectable installs that sit flat and look completely natural — from prep to final style.</p>
+            <a href="https://wa.me/971586630765?text=Hi!%20I%27d%20like%20to%20book%20a%20Lace%20Front%20Install." class="svc-link" target="_blank" rel="noopener">Book Now →</a>
+          </div>
+        </article>
+
+        <article class="svc-card reveal">
+          <div class="svc-img">
+            <img src="Photos/photo_3_2026-06-19_07-30-12.jpg" alt="Knotless Braids" loading="lazy" />
+          </div>
+          <div class="svc-body">
+            <h3>Knotless Braids</h3>
+            <p>Lightweight, low-tension braids executed with precision. Neat edges, long-lasting hold, stunning results.</p>
+            <a href="https://wa.me/971586630765?text=Hi!%20I%27d%20like%20to%20book%20Knotless%20Braids." class="svc-link" target="_blank" rel="noopener">Book Now →</a>
+          </div>
+        </article>
+
+        <article class="svc-card reveal">
+          <div class="svc-img">
+            <img src="Photos/photo_4_2026-06-19_07-30-12.jpg" alt="Silk Press" loading="lazy" />
+          </div>
+          <div class="svc-body">
+            <h3>Silk Press &amp; Blow-Out</h3>
+            <p>Glass-straight, glass-smooth results with heat techniques that protect your natural hair's integrity.</p>
+            <a href="https://wa.me/971586630765?text=Hi!%20I%27d%20like%20to%20book%20a%20Silk%20Press." class="svc-link" target="_blank" rel="noopener">Book Now →</a>
+          </div>
+        </article>
+
+        <article class="svc-card reveal">
+          <div class="svc-img">
+            <img src="Photos/photo_6_2026-06-19_07-30-12.jpg" alt="Colour Treatment" loading="lazy" />
+          </div>
+          <div class="svc-body">
+            <h3>Colour Treatment</h3>
+            <p>Rich burgundies, warm chocolates, bold reds — expert colour application that keeps hair looking healthy and vibrant.</p>
+            <a href="https://wa.me/971586630765?text=Hi!%20I%27d%20like%20to%20book%20a%20Colour%20Treatment." class="svc-link" target="_blank" rel="noopener">Book Now →</a>
+          </div>
+        </article>
+
+        <article class="svc-card reveal">
+          <div class="svc-img">
+            <img src="Photos/photo_7_2026-06-19_07-30-12.jpg" alt="Protective Styles" loading="lazy" />
+          </div>
+          <div class="svc-body">
+            <h3>Protective Styles</h3>
+            <p>Updos, twists, and editorial styles that protect your natural hair while keeping you camera-ready.</p>
+            <a href="https://wa.me/971586630765?text=Hi!%20I%27d%20like%20to%20book%20a%20Protective%20Style." class="svc-link" target="_blank" rel="noopener">Book Now →</a>
+          </div>
+        </article>
+
+        <article class="svc-card reveal">
+          <div class="svc-img">
+            <img src="Photos/photo_8_2026-06-19_07-30-12.jpg" alt="Wig Customisation" loading="lazy" />
+          </div>
+          <div class="svc-body">
+            <h3>Wig Customisation</h3>
+            <p>Bleached knots, tinted lace, cut &amp; style — we transform wigs into your most natural-looking crown yet.</p>
+            <a href="https://wa.me/971586630765?text=Hi!%20I%27d%20like%20to%20book%20Wig%20Customisation." class="svc-link" target="_blank" rel="noopener">Book Now →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ GALLERY ═══ -->
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <div class="sec-head reveal">
+        <span class="tag tag-light">Our Work</span>
+        <h2 class="sec-title">The Portfolio</h2>
+        <p class="sec-sub">Every client. Every transformation. Every crown.</p>
+      </div>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="g-item g-tall reveal">
+        <img src="Photos/photo_9_2026-06-19_07-30-12.jpg" alt="Glamour wavy install" loading="lazy" />
+        <div class="g-cap">Body Wave Install</div>
+      </div>
+      <div class="g-item reveal">
+        <img src="Photos/photo_1_2026-06-19_07-30-12.jpg" alt="Wavy lace front install" loading="lazy" />
+        <div class="g-cap">Lace Front Install</div>
+      </div>
+      <div class="g-item reveal">
+        <img src="Photos/photo_8_2026-06-19_07-30-12.jpg" alt="Body wave sleek edges" loading="lazy" />
+        <div class="g-cap">Body Wave + Edges</div>
+      </div>
+      <div class="g-item g-tall reveal">
+        <img src="Photos/photo_10_2026-06-19_07-30-12.jpg" alt="Glam wavy install" loading="lazy" />
+        <div class="g-cap">Glam Wavy Install</div>
+      </div>
+      <div class="g-item reveal">
+        <img src="Photos/photo_3_2026-06-19_07-30-12.jpg" alt="Knotless braids high ponytail" loading="lazy" />
+        <div class="g-cap">Knotless Braids</div>
+      </div>
+      <div class="g-item reveal">
+        <img src="Photos/photo_4_2026-06-19_07-30-12.jpg" alt="Chocolate silk press" loading="lazy" />
+        <div class="g-cap">Silk Press</div>
+      </div>
+      <div class="g-item reveal">
+        <img src="Photos/photo_6_2026-06-19_07-30-12.jpg" alt="Burgundy straight install" loading="lazy" />
+        <div class="g-cap">Colour Treatment</div>
+      </div>
+      <div class="g-item reveal">
+        <img src="Photos/photo_7_2026-06-19_07-30-12.jpg" alt="Burgundy updo" loading="lazy" />
+        <div class="g-cap">Protective Style</div>
+      </div>
+      <div class="g-item reveal">
+        <img src="Photos/photo_5_2026-06-19_07-30-12.jpg" alt="Black wavy lace install" loading="lazy" />
+        <div class="g-cap">Wavy Lace Install</div>
+      </div>
+      <div class="g-item reveal">
+        <img src="Photos/photo_2_2026-06-19_07-30-12.jpg" alt="Natural wavy lace" loading="lazy" />
+        <div class="g-cap">Natural Wavy Lace</div>
+      </div>
+    </div>
+
+    <div class="gallery-cta reveal">
+      <a href="https://instagram.com/senami_salon" class="btn btn-outline" target="_blank" rel="noopener">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        See More on Instagram
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══ BOOKING ═══ -->
+  <section id="booking" class="booking">
+    <div class="booking-inner">
+      <div class="booking-text reveal">
+        <span class="tag tag-gold">Book Your Session</span>
+        <h2>Ready for Your<br /><em>Transformation?</em></h2>
+        <p>Reach out on WhatsApp to discuss your vision, get a quote, and lock in your slot. We reply fast.</p>
+
+        <div class="contact-rows">
+          <div class="c-row">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Dubai, United Arab Emirates</span>
+          </div>
+          <div class="c-row">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.5 9.81 19.79 19.79 0 011.49 1.18 2 2 0 013.47 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L7.91 7.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            <span>+971 58 66 30 765</span>
+          </div>
+          <div class="c-row">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+            <span>@senami_salon</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="booking-card reveal">
+        <img src="Photos/photo_11_2026-06-19_07-30-12.jpg" alt="Senami Salon motto" class="booking-motto-img" loading="lazy" />
+        <a href="https://wa.me/971586630765?text=Hi%20Senami%20Salon!%20I%27d%20like%20to%20book%20an%20appointment."
+           class="btn btn-gold btn-lg" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Message Us on WhatsApp
+        </a>
+        <a href="https://instagram.com/senami_salon" class="btn btn-outline-w" target="_blank" rel="noopener">Follow on Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="Photos/photo_2026-06-19_07-49-50.jpg" alt="Senami Salon" class="footer-logo-img" />
+        </div>
+        <p class="footer-motto">"We don't just slay braids,<br />we make pretty girls prettier."</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#booking">Book Now</a>
+      </nav>
+      <div class="footer-contact">
+        <a href="https://instagram.com/senami_salon" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          @senami_salon
+        </a>
+        <a href="https://wa.me/971586630765" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          +971 58 66 30 765
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Senami Salon · Dubai, UAE · All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp button -->
+  <a href="https://wa.me/971586630765?text=Hi%20Senami%20Salon!%20I%27d%20like%20to%20book%20an%20appointment."
+     class="wa-btn" target="_blank" rel="noopener" aria-label="Book via WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="wa-ring"></span>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
