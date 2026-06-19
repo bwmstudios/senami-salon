@@ -261,7 +261,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 18%;
+  object-position: center 10%;
   transform: scale(1.04);
   transition: transform 8s ease;
 }
@@ -407,7 +407,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   overflow: hidden;
   box-shadow: 0 20px 60px rgba(0,0,0,.15);
 }
-.about-img-main img { width: 100%; height: 100%; object-fit: cover; object-position: center 22%; }
+.about-img-main img { width: 100%; height: 100%; object-fit: cover; object-position: center 12%; }
 .about-img-float {
   position: absolute;
   width: 52%;
@@ -419,7 +419,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   border: 5px solid var(--warm-white);
   aspect-ratio: 3/4;
 }
-.about-img-float img { width: 100%; height: 100%; object-fit: cover; object-position: center 22%; }
+.about-img-float img { width: 100%; height: 100%; object-fit: cover; object-position: center 12%; }
 
 .about-text { display: flex; flex-direction: column; }
 .motto-quote {
@@ -511,7 +511,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 22%;
+  object-position: center 12%;
   transition: transform .6s var(--ease-out);
 }
 .svc-card:hover .svc-img img { transform: scale(1.05); }
@@ -561,24 +561,28 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 380px;
   gap: 6px;
   padding-inline: 6px;
   margin-top: 48px;
+  /* rows auto-size to content so portraits breathe */
+  grid-auto-rows: auto;
 }
 .g-item {
   position: relative;
   overflow: hidden;
   border-radius: 4px;
   cursor: pointer;
+  /* force portrait 3:4 aspect ratio so faces always show */
+  aspect-ratio: 3 / 4;
 }
-.g-item.g-tall { grid-row: span 2; }
+/* tall items get a taller portrait slot */
+.g-item.g-tall { aspect-ratio: 3 / 5; }
 
 .g-item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 22%;
+  object-position: center 12%;
   transition: transform .6s var(--ease-out);
 }
 .g-item:hover img { transform: scale(1.06); }
@@ -804,7 +808,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 ═══════════════════════════════════════════════ */
 @media (max-width: 1024px) {
   .services-grid { grid-template-columns: repeat(2, 1fr); }
-  .gallery-grid  { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 340px; }
+  .gallery-grid  { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 860px) {
@@ -825,7 +829,6 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 
   .gallery-grid {
     grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 300px;
   }
   .g-item.g-tall { grid-row: span 2; }
   .g-cap { opacity: 1; transform: translateY(0); }
